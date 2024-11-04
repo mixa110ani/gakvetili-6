@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+.first {
+	width: 350px;
+	height: 150px;
+	border: 2px solid red;
+	
+}
+
+.pos-1{
+	position: relative;
+	left: 50px;
+	top: 20px;
+}
+
+
+p{
+	color: green;
+	margin: 10px 0px;
+
+}
+header{
+	width: 100%;
+	height: 80px;
+	background-color: blueviolet;
+	position: fixed;
+	top: 0px;
+	z-index: 2;
+
+}
+
+h2{
+	text-align: center;
+}
+
+.absolute{
+	width: 100px;
+	height: 50px;
+	background-color: green;
+	postion: absolute;
+	box-sizing: border-box;
+	left: 200px;
+}
